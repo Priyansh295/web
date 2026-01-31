@@ -84,6 +84,52 @@ body {
   background-clip: text;
 }
 
+.gradient-border {
+  position: relative;
+  background: linear-gradient(135deg, var(--card-bg), var(--card-bg)) padding-box,
+              linear-gradient(135deg, rgba(255, 107, 53, 0.2), transparent 60%) border-box;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.gradient-border:hover {
+  background: linear-gradient(135deg, var(--card-bg), var(--card-bg)) padding-box,
+              linear-gradient(135deg, var(--accent), var(--accent-light) 50%, transparent) border-box;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1), 0 0 20px rgba(255, 107, 53, 0.15);
+}
+
+.dark .gradient-border {
+  background: linear-gradient(135deg, #1a1a1a, #1a1a1a) padding-box,
+              linear-gradient(135deg, rgba(255, 107, 53, 0.3), transparent 60%) border-box;
+}
+
+.dark .gradient-border:hover {
+  background: linear-gradient(135deg, #1a1a1a, #1f1f1f) padding-box,
+              linear-gradient(135deg, var(--accent), var(--accent-light) 50%, rgba(255, 107, 53, 0.3)) border-box;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 107, 53, 0.2);
+}
+
+.skill-tag {
+  background: linear-gradient(135deg, var(--card-bg), var(--card-bg));
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  border-color: rgba(255, 107, 53, 0.6);
+  box-shadow: 0 0 15px rgba(255, 107, 53, 0.3);
+  transform: translateY(-2px);
+}
+
+.dark .skill-tag {
+  background: linear-gradient(135deg, #1a1a1a, #252525);
+}
+
+.dark .skill-tag:hover {
+  background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+}
+
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

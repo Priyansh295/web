@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Moon, Sun } from "lucide-react"; // Or custom theme toggle
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const navItems = [
   { name: "About", path: "/" },
@@ -16,46 +17,71 @@ const navItems = [
 
 export function Navbar() {
   const pathname = usePathname();
-  
+
   return (
-    <nav className="fixed bottom-0 left-0 w-full lg:sticky lg:top-14 lg:w-auto lg:h-fit z-30 lg:ml-auto">
-      <div className="dark:bg-[#2b2b2c]/90 bg-white/90 backdrop-blur-md rounded-t-2xl lg:rounded-tr-3xl lg:rounded-bl-3xl lg:rounded-br-none lg:rounded-tl-none dark:border-white/10 border-gray-200 border px-6 py-4 flex items-center justify-between lg:justify-center gap-8 shadow-lg">
+    <motion.nav
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+      className="fixed bottom-0 left-0 w-full lg:static lg:w-auto lg:h-fit z-30 lg:ml-auto"
+    >
+      <div className="glass rounded-t-2xl lg:rounded-3xl px-6 py-4 flex items-center justify-between lg:justify-center gap-8 shadow-lg border-t lg:border border-[var(--accent)]/20">
         <ul className="flex gap-6 lg:gap-8">
-            {navItems.map((item) => (
-                <li key={item.name}>
-                    <Link 
-                        href={item.path}
-                        className={cn(
-                            "text-sm font-medium transition-colors dark:hover:text-[#ffdb70] hover:text-blue-600",
-                            pathname === item.path ? "dark:text-[#ffdb70] text-blue-600" : "dark:text-white/70 text-gray-500"
-                        )}
-                    >
-                        {item.name}
-                    </Link>
-                </li>
-            ))}
+          {navItems.map((item, index) => (
+            <motion.li
+              key={item.name}
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 + index * 0.1 }}
+            >
+              <Link
+                href={item.path}
+                className={cn(
+                  "text-sm font-medium transition-all duration-300 relative group",
+                  pathname === item.path
+                    ? "text-[var(--accent)]"
+                    : "text-[var(--muted)] hover:text-[var(--accent)]"
+                )}
+              >
+                {item.name}
+                <span
+                  className={cn(
+                    "absolute -bottom-1 left-0 h-0.5 bg-[var(--accent)] transition-all duration-300 rounded-full",
+                    pathname === item.path ? "w-full" : "w-0 group-hover:w-full"
+                  )}
+                />
+              </Link>
+            </motion.li>
+          ))}
         </ul>
         <ThemeToggle />
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 
 function ThemeToggle() {
-    const { theme, setTheme } = useTheme();
-    const [mounted, setMounted] = useState(false);
+  const { theme, setTheme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
-    useEffect(() => setMounted(true), []);
+  // This is the recommended pattern for handling client-only rendering in Next.js
+  // to avoid hydration mismatch. The lint rule is overly strict for this use case.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
 
-    if (!mounted) return null;
+  if (!mounted) return null;
 
-    return (
-        <button 
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="dark:text-white/70 text-gray-500 dark:hover:text-[#ffdb70] hover:text-blue-600 transition-colors"
-            aria-label="Toggle Theme"
-        >
-            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-        </button>
-    )
+  const currentTheme = theme === "system" ? resolvedTheme : theme;
+
+  return (
+    <motion.button
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9, rotate: 180 }}
+      className="text-[var(--muted)] hover:text-[var(--accent)] transition-colors p-2 rounded-lg hover:bg-[var(--accent)]/10"
+      aria-label="Toggle Theme"
+    >
+      {currentTheme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+    </motion.button>
+  );
 }

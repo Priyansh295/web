@@ -1,68 +1,148 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { personalData } from "@/lib/data";
-import { Eye, Code } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { motion, AnimatePresence } from "framer-motion";
 
 const categories = ["All", "AI/ML", "Web Dev", "Research"];
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const filteredProjects = personalData.projects.filter(project => {
-    if (activeCategory === "All") return true;
-    if (activeCategory === "AI/ML") return project.category.includes("AI") || project.category.includes("ML");
-    if (activeCategory === "Web Dev") return project.category.includes("Web");
-    if (activeCategory === "Research") return project.category.includes("Research");
-    return true;
-  });
+  const filteredProjects = useMemo(() => {
+    return personalData.projects.filter((project) => {
+      if (activeCategory === "All") return true;
+      if (activeCategory === "AI/ML") return project.category.includes("AI") || project.category.includes("ML");
+      if (activeCategory === "Web Dev") return project.category.includes("Web");
+      if (activeCategory === "Research") return project.category.includes("Research");
+      return true;
+    });
+  }, [activeCategory]);
 
   return (
-    <article className="page-transition">
-      <header className="mb-8">
-        <h2 className="text-3xl font-bold dark:text-white text-gray-800 mb-6 relative w-fit after:content-[''] after:absolute after:h-[3px] after:w-[30px] dark:after:bg-[#ffdb70] after:bg-blue-600 after:bottom-[-10px] after:left-0 after:rounded-md">Portfolio</h2>
-      </header>
+    <motion.article
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <motion.header
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mb-8"
+      >
+        <h2 className="text-3xl font-bold dark:text-white text-gray-800 mb-6 relative w-fit">
+          Portfolio
+          <motion.span
+            initial={{ width: 0 }}
+            animate={{ width: 30 }}
+            transition={{ delay: 0.5, duration: 0.4 }}
+            className="absolute h-[3px] bg-[var(--accent)] bottom-[-10px] left-0 rounded-md"
+          />
+        </h2>
+      </motion.header>
 
-      <ul className="flex flex-wrap gap-4 mb-8">
-        {categories.map((category) => (
-            <li key={category}>
-                <button
-                    onClick={() => setActiveCategory(category)}
-                    className={cn(
-                        "text-sm font-medium transition-colors dark:hover:text-[#ffdb70] hover:text-blue-600",
-                        activeCategory === category ? "dark:text-[#ffdb70] text-blue-600" : "dark:text-white/70 text-gray-500"
-                    )}
-                >
-                    {category}
-                </button>
-            </li>
+      <motion.ul
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        className="flex flex-wrap gap-4 mb-8"
+      >
+        {categories.map((category, index) => (
+          <motion.li
+            key={category}
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 + index * 0.1 }}
+          >
+            <button
+              onClick={() => setActiveCategory(category)}
+              className={cn(
+                "text-sm font-medium transition-all duration-300 relative px-3 py-1.5 rounded-lg",
+                activeCategory === category
+                  ? "text-[var(--accent)] bg-[var(--accent)]/10"
+                  : "text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--accent)]/5"
+              )}
+            >
+              {category}
+            </button>
+          </motion.li>
         ))}
-      </ul>
+      </motion.ul>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {filteredProjects.map((project, idx) => (
-            <div key={idx} className="group relative dark:bg-[#2b2b2c] bg-gray-50 rounded-2xl overflow-hidden border dark:border-white/5 border-gray-200 hover:shadow-xl transition-all h-[250px] flex flex-col p-6">
-                
-                <div className="absolute top-4 right-4 dark:bg-[#1e1e1f] bg-white p-2 rounded-lg dark:text-[#ffdb70] text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
-                    <Eye size={20} />
-                </div>
-
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeCategory}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.3 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          {filteredProjects.map((project) => (
+            <motion.div
+              key={project.title}
+              whileHover={{ y: -4 }}
+              transition={{ duration: 0.2 }}
+              className="group gradient-border h-[280px] flex flex-col p-6"
+            >
                 <div className="mb-auto">
-                    <h3 className="text-xl font-bold dark:text-white text-gray-800 mb-2">{project.title}</h3>
-                    <p className="dark:text-[#ffdb70] text-blue-600 text-sm mb-4">{project.category}</p>
-                    <p className="dark:text-white/60 text-gray-600 text-sm line-clamp-3 leading-6">{project.description}</p>
+                  <h3 className="text-xl font-bold dark:text-white text-gray-800 mb-2 group-hover:text-[var(--accent)] transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-[var(--accent)] text-sm mb-4">{project.category}</p>
+                  <p className="text-[var(--muted)] text-sm line-clamp-3 leading-6">{project.description}</p>
                 </div>
 
-                <div className="flex flex-wrap gap-2 mt-4">
+                <div className="flex items-center justify-between mt-4">
+                  <div className="flex flex-wrap gap-2">
                     {project.tech.slice(0, 3).map((tech, tIdx) => (
-                         <span key={tIdx} className="text-xs dark:text-white/50 text-gray-500 dark:bg-[#1e1e1f] bg-white border dark:border-transparent border-gray-200 px-2 py-1 rounded-md">{tech}</span>
+                      <span
+                        key={tIdx}
+                        className="text-xs text-[var(--muted)] bg-[var(--background)] dark:bg-[#0f0f0f] border border-[var(--card-border)] px-2 py-1 rounded-md"
+                      >
+                        {tech}
+                      </span>
                     ))}
-                    {project.tech.length > 3 && <span className="text-xs dark:text-white/50 text-gray-500 px-2 py-1">+{project.tech.length - 3}</span>}
+                    {project.tech.length > 3 && (
+                      <span className="text-xs text-[var(--muted)] px-2 py-1">+{project.tech.length - 3}</span>
+                    )}
+                  </div>
+
+                  <div className="flex gap-2">
+                    {project.github && (
+                      <motion.a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1, y: -2 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="p-2 rounded-lg bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20 transition-colors"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <Github size={18} />
+                      </motion.a>
+                    )}
+                    {project.demo && (
+                      <motion.a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1, y: -2 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="p-2 rounded-lg bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20 transition-colors"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <ExternalLink size={18} />
+                      </motion.a>
+                    )}
+                  </div>
                 </div>
-            </div>
-        ))}
-      </div>
-    </article>
+            </motion.div>
+          ))}
+        </motion.div>
+      </AnimatePresence>
+    </motion.article>
   );
 }
