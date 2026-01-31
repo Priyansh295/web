@@ -1,0 +1,750 @@
+
+==================================================
+FILE: PRIYANSH1 (1).docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +91 91481 77956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML) — CGPA 7.992022 - 2026
+Technical Skills
+Languages: Python, JavaScript, C++, SQL
+ML/AI Stack: PyTorch, TensorFlow, Scikit-learn, LangChain, OpenAI/Gemini APIs, Optuna, Pandas, NumPy
+Data & Analytics: Time-Series Analysis, Feature Engineering, Statistical Modeling, Anomaly Detection, Data Visualiza- tion
+MLOps & Cloud: GCP (Vertex AI compatible), AWS (basic), Docker, CI/CD, Model Monitoring
+Backend & Integration: REST APIs, Node.js, Express.js, MySQL, PostgreSQL, JSON Schemas
+Domain Knowledge: Financial Markets, Trading Systems, Transaction Data, Stock Price Forecasting, Pattern Recognition
+Professional Experience
+Teaching Assistant — Engineering, ML Systems & User SupportTeaching Assistant — Engineering, ML Systems & User Support
+Teaching Assistant — Engineering, ML Systems & User Support
+Teaching Assistant — Engineering, ML Systems & User Support
+PES University, Bajaj BEST Program | Bangalore2024
+Worked directly with 200+ student and faculty users to understand workflows, identify bottlenecks, and translate needs into technical requirements—mirroring business analyst and stakeholder collaboration responsibilities.
+Designed and shipped a full-stack lab management platform (React + Node.js) with clean API contracts, achieving 30% faster workflow execution and 99% uptime through robust error handling and monitoring.
+Created technical enablement modules that simplified ML concepts for non-technical audiences, demonstrating ability to communicate complex AI/ML techniques to business users and SMEs.
+Built reproducible demos, debugging tools, and internal automations to reduce repetitive support issues and improve operational efficiency.
+Selected Projects
+Stock Price Forecasting System | Kaggle CompetitionStock Price Forecasting System | Kaggle Competition
+Stock Price Forecasting System | Kaggle Competition
+Stock Price Forecasting System | Kaggle Competition
+Tech Stack: Python, LSTM, Time-Series Models, Feature Engineering, Statistical Analysis
+Built end-to-end stock prediction pipeline for daily closing price forecasting in a competitive setting, achieving MSE <
+0.5 on unseen market data—demonstrating proficiency in financial domain modeling.
+Engineered features from OHLCV (Open-High-Low-Close-Volume) data, applied smoothing techniques to handle market volatility, and implemented robust preprocessing to address data quality issues.
+Designed model evaluation framework with walk-forward validation to simulate real trading conditions—directly appli- cable to HSBC’s trade and transaction reporting controls.
+Key Impact: Demonstrates understanding of financial markets, trading lifecycle flows, and ability to build ML models for investment banking domains.
+Traffic Pattern Analysis & Anomaly Detection | Kaggle Competition
+Tech Stack: Python, Scikit-learn, XGBoost, Feature Engineering, Anomaly Detection, Time-Series Analysis
+Developed predictive models for traffic volume forecasting using multi-variate weather and temporal features, achieving
+Adjusted R² > 0.85 on state-wide transportation data.
+Applied anomaly detection techniques to identify unusual traffic patterns and outliers in time-series data—directly transferable to detecting anomalies in trade transaction reporting.
+Built automated feature engineering pipeline extracting temporal patterns (hour-of-day, day-of-week, seasonal trends) to improve model performance by 22%.
+Key Impact: Shows hands-on experience with anomaly detection in operational data—a core requirement for HSBC’s Trade Controls ML initiatives.
+AgriChat — Plant Disease Detection Chatbot
+Tech Stack: Python, LangChain, OpenAI/Gemini APIs, Computer Vision, REST APIs, GCP
+Built multimodal RAG-based chatbot for plant disease detection supporting both image and text inputs, with modular architecture and extensible components.
+Designed secure API endpoints with authentication, rate limiting, and request validation—reduced response latency by
+60% through optimized data parsing and caching.
+Implemented instrumentation framework tracking accuracy, latency, and usage metrics to enable data-driven iteration and model improvement.
+Key Impact: Demonstrates ability to build scalable ML systems integrating NLP and computer vision with proper monitoring and API design.
+AutoCommerce Manager — Transaction Processing Backend
+Tech Stack: Node.js, Express.js, MySQL, Docker, ACID Transactions
+Architected production-grade backend with ACID-compliant transactions, concurrency-safe order handling, and robust data validation—directly analogous to trade transaction systems.
+Designed reusable patterns for authentication, error handling, and database optimization—reduced DB load by 40% using strategic indexing and query refactoring.
+Implemented real-time inventory validation and order workflow routing with role-based access controls—demonstrates understanding of operational controls and data integrity.
+Key Impact: Shows experience building reliable, transactional systems with proper data governance—applicable to financial transaction reporting.
+Metaheuristic Optimization of SOTA Inpainting Model
+Tech Stack: Python, PyTorch, Optuna, Neural Architecture Search, Bayesian Optimization
+Extended state-of-the-art transformer architecture from CVPRW 2023, implementing neural architecture search using genetic algorithms and particle swarm optimization.
+Reduced training compute requirements by 99.9% (from millions to 5K epochs) through structured experimentation and hyperparameter tuning.
+Key Impact: Demonstrates ability to learn complex systems quickly, optimize model performance, and conduct rigorous technical analysis—critical for onboarding to new ML domains.
+Publications & Research
+Kolmogorov-Arnold Networks for Vision | Priyansh Gupta et al. | ICOACT 2025
+Improved VGG-16 accuracy by 4.3% through novel architecture integration
+Temporal GNNs for Continual Learning | V. Palled, Y. Gawhale, P. Gupta, B. Das | Under Review, KAIS Journal
+Achieved SOTA 91.2% accuracy with Adaptive Memory Consolidation framework
+Weak Supervision Pipeline for Misinformation Detection | Y. Gawhale, P. Gupta, V. Palled, B. Das | ICTIS 2025
+Outperformed RoBERTa by 25pp F1-macro using LLaMA 2 and Snorkel framework
+
+==================================================
+FILE: PRIYANSH1.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +91 91481 77956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML) — CGPA 7.992022 - 2026
+Technical Skills
+Languages: Python, JavaScript, C++, SQL
+ML/AI Stack: PyTorch, TensorFlow, Scikit-learn, LangChain, OpenAI/Gemini APIs, Optuna, Pandas, NumPy
+Data & Analytics: Time-Series Analysis, Feature Engineering, Statistical Modeling, Anomaly Detection, Data Visualiza- tion
+MLOps & Cloud: GCP (Vertex AI compatible), AWS (basic), Docker, CI/CD, Model Monitoring
+Backend & Integration: REST APIs, Node.js, Express.js, MySQL, PostgreSQL, JSON Schemas
+Domain Knowledge: Financial Markets, Trading Systems, Transaction Data, Stock Price Forecasting, Pattern Recognition
+Professional Experience
+Teaching Assistant — Engineering, ML Systems & User SupportTeaching Assistant — Engineering, ML Systems & User Support
+Teaching Assistant — Engineering, ML Systems & User Support
+Teaching Assistant — Engineering, ML Systems & User Support
+PES University, Bajaj BEST Program | Bangalore2024
+Worked directly with 200+ student and faculty users to understand workflows, identify bottlenecks, and translate needs into technical requirements—mirroring business analyst and stakeholder collaboration responsibilities.
+Designed and shipped a full-stack lab management platform (React + Node.js) with clean API contracts, achieving 30% faster workflow execution and 99% uptime through robust error handling and monitoring.
+Created technical enablement modules that simplified ML concepts for non-technical audiences, demonstrating ability to communicate complex AI/ML techniques to business users and SMEs.
+Built reproducible demos, debugging tools, and internal automations to reduce repetitive support issues and improve operational efficiency.
+Selected Projects
+Stock Price Forecasting System | Kaggle CompetitionStock Price Forecasting System | Kaggle Competition
+Stock Price Forecasting System | Kaggle Competition
+Stock Price Forecasting System | Kaggle Competition
+Tech Stack: Python, LSTM, Time-Series Models, Feature Engineering, Statistical Analysis
+Built end-to-end stock prediction pipeline for daily closing price forecasting in a competitive setting, achieving MSE <
+0.5 on unseen market data—demonstrating proficiency in financial domain modeling.
+Engineered features from OHLCV (Open-High-Low-Close-Volume) data, applied smoothing techniques to handle market volatility, and implemented robust preprocessing to address data quality issues.
+Designed model evaluation framework with walk-forward validation to simulate real trading conditions—directly appli- cable to HSBC’s trade and transaction reporting controls.
+Key Impact: Demonstrates understanding of financial markets, trading lifecycle flows, and ability to build ML models for investment banking domains.
+Traffic Pattern Analysis & Anomaly Detection | Kaggle Competition
+Tech Stack: Python, Scikit-learn, XGBoost, Feature Engineering, Anomaly Detection, Time-Series Analysis
+Developed predictive models for traffic volume forecasting using multi-variate weather and temporal features, achieving
+Adjusted R² > 0.85 on state-wide transportation data.
+Applied anomaly detection techniques to identify unusual traffic patterns and outliers in time-series data—directly transferable to detecting anomalies in trade transaction reporting.
+Built automated feature engineering pipeline extracting temporal patterns (hour-of-day, day-of-week, seasonal trends) to improve model performance by 22%.
+Key Impact: Shows hands-on experience with anomaly detection in operational data—a core requirement for HSBC’s Trade Controls ML initiatives.
+AgriChat — Plant Disease Detection Chatbot
+Tech Stack: Python, LangChain, OpenAI/Gemini APIs, Computer Vision, REST APIs, GCP
+Built multimodal RAG-based chatbot for plant disease detection supporting both image and text inputs, with modular architecture and extensible components.
+Designed secure API endpoints with authentication, rate limiting, and request validation—reduced response latency by
+60% through optimized data parsing and caching.
+Implemented instrumentation framework tracking accuracy, latency, and usage metrics to enable data-driven iteration and model improvement.
+Key Impact: Demonstrates ability to build scalable ML systems integrating NLP and computer vision with proper monitoring and API design.
+AutoCommerce Manager — Transaction Processing Backend
+Tech Stack: Node.js, Express.js, MySQL, Docker, ACID Transactions
+Architected production-grade backend with ACID-compliant transactions, concurrency-safe order handling, and robust data validation—directly analogous to trade transaction systems.
+Designed reusable patterns for authentication, error handling, and database optimization—reduced DB load by 40% using strategic indexing and query refactoring.
+Implemented real-time inventory validation and order workflow routing with role-based access controls—demonstrates understanding of operational controls and data integrity.
+Key Impact: Shows experience building reliable, transactional systems with proper data governance—applicable to financial transaction reporting.
+Metaheuristic Optimization of SOTA Inpainting Model
+Tech Stack: Python, PyTorch, Optuna, Neural Architecture Search, Bayesian Optimization
+Extended state-of-the-art transformer architecture from CVPRW 2023, implementing neural architecture search using genetic algorithms and particle swarm optimization.
+Reduced training compute requirements by 99.9% (from millions to 5K epochs) through structured experimentation and hyperparameter tuning.
+Key Impact: Demonstrates ability to learn complex systems quickly, optimize model performance, and conduct rigorous technical analysis—critical for onboarding to new ML domains.
+Publications & Research
+Kolmogorov-Arnold Networks for Vision | Priyansh Gupta et al. | ICOACT 2025
+Improved VGG-16 accuracy by 4.3% through novel architecture integration
+Temporal GNNs for Continual Learning | V. Palled, Y. Gawhale, P. Gupta, B. Das | Under Review, KAIS Journal
+Achieved SOTA 91.2% accuracy with Adaptive Memory Consolidation framework
+Weak Supervision Pipeline for Misinformation Detection | Y. Gawhale, P. Gupta, V. Palled, B. Das | ICTIS 2025
+Outperformed RoBERTa by 25pp F1-macro using LLaMA 2 and Snorkel framework
+
+==================================================
+FILE: PRIYANSH_GUPTA_RESEARCH.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Professional Summary
+Computer Science Engineering student specializing in generative AI and advanced machine learning systems. Passionate about pioneering novel solutions in goal-oriented agents, knowledge graphs, and parameter-efficient model optimization. Proven ability to translate cutting-edge AI research into scalable, high-impact systems by implementing state-of-the-art architectures in PyTorch and Transformers.
+Education
+PES UniversityBengaluru, India
+Bachelor of Technology in Computer Science Engineering (AIML), GPA: 8.02022 - 2026
+Trisha PU CollegeBengaluru, Karnataka
+Senior Secondary Education (80%)2020 - 2022
+Ryan International SchoolBengaluru, Karnataka
+High School (94%)2018 - 2020
+Publications & Research
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks
+Priyansh Gupta, NS Pushkar, Adit Acharya, Aditya Hriday Rath, Priyansh Surana, Sucheta R ShinganmakkiPublished in ICOACT 2025
+Led a study integrating novel Kolmogorov-Arnold Networks (KANs) into vision-based models for image classification and captioning, replacing traditional MLP layers with learnable activation functions on edges.
+Engineered and trained a CNN-KAN model from scratch and enhanced a VGG-16 architecture, achieving an 80.4% accuracy on the Intel Image Classification dataset—a 4.3% improvement over the baseline.
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks
+Vinay Palled, Yash Gawhale, Priyansh Gupta, Bhaskarjyoti DasUnder Review in KAIS Journal
+Co-authored the proposal of a novel Adaptive Memory Consolidation (AMC) framework to mitigate catastrophic forgetting in Temporal Graph Neural Networks (TGNNs) in continual learning scenarios.
+Established a new state-of-the-art on the Reddit Hyperlink Network dataset, achieving 91.2% accuracy—a 19.5 percentage point improvement over the Experience Replay baseline.
+A Pipeline of Weak Supervisions for Misinformation Detection
+Yash Gawhale, Priyansh Gupta, Vinay Palled, Bhaskarjyoti DasPublished in ICTIS, 2025
+Developed a novel NLP pipeline that leverages Large Language Models (LLaMA 2) and the Snorkel framework for weakly supervised misinformation detection.
+Demonstrated superior robustness to domain shift, outperforming a RoBERTa baseline by over 25 percentage points in F1-macro score (0.71 vs. 0.46) in cross-domain settings.
+Technical Skills
+AI/ML Research: PyTorch, TensorFlow, Metaheuristic Optimization (GA, PSO, BO), Neural Architecture Search (NAS), Temporal Graph Neural Networks (TGNNs), Kolmogorov-Arnold Networks (KANs), Continual Learning, Weak Supervision (Snorkel), Transformers, Attention Mechanisms, Wavelet Transforms, LSTMs, LangChain
+Computer Vision: Image Inpainting & Restoration, Object Detection, Image Classification, CNNs (VGG-16), OpenCV, Kornia
+Programming Core CS: Python, Java, JavaScript, C++, SQL, Data Structures & Algorithms, System Design
+Full-Stack DevOps: React.js, Node.js, Express.js, RESTful APIs, MySQL, Docker, Google Cloud Platform
+Professional Experience
+Teaching AssistantPES University, Bajaj BEST Program | Bengaluru, IndiaTeaching AssistantPES University, Bajaj BEST Program | Bengaluru, India
+Teaching Assistant
+PES University, Bajaj BEST Program | Bengaluru, India
+Teaching Assistant
+PES University, Bajaj BEST Program | Bengaluru, India
+2024
+Shipped a full-stack laboratory management portal using React.js and Node.js serving 200+ students, reducing query resolution time by 30%.
+Designed and developed interactive AI laboratory exercises, collaborating with faculty to understand student requirements and improve lab completion rates by 45%.
+Created self-guided learning modules enabling students to build ML models, demonstrating ability to translate complex concepts into user-friendly solutions.
+Projects
+Metaheuristic Optimization of a SOTA Inpainting Model | Research Project
+Tech Stack: Python, PyTorch, Optuna, Nevergrad, PyTorch Wavelets, Kornia
+Implemented and extended "Blind_Omni_Wav_Net," a state-of-the-art transformer architecture from a CVPRW 2023 paper, featuring Wavelet Queries (WQMA) and Omni-dimensional Gated Attention (OGA).
+Architected a metaheuristic pipeline using Genetic Algorithms for neural architecture search, Particle Swarm Optimization for loss weight tuning, and Bayesian Optimization for hyperparameter discovery.
+The optimization pipeline identified a configuration that reduced training requirements by 99.9% (from a multi-million epoch baseline to ~5,000 epochs) while maintaining high-fidelity image restoration metrics.
+Agriculture Chatbot | AI-Powered Query System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini API, REST APIs
+Engineered an intelligent RAG-based chatbot to serve farmers with 95% query accuracy, solving critical information access problems in the agricultural domain.
+Integrated LangChain with a structured JSON database, reducing response time by 60% through optimized data parsing and caching strategies.
+AI Article Summarizer | Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API, HTML/CSS
+Shipped a production-ready Chrome extension leveraging the Gemini API for content summarization, used by 100+ users for improved reading efficiency.
+Implemented secure API key management and robust error handling to ensure 99% service reliability and user data privacy.
+AutoCommerce Manager | Full-Stack Retail Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL, REST APIs
+Developed a complete e-commerce platform with secure payment processing, achieving 35% faster order processing through optimized database queries and API design.
+Designed a normalized database schema with strategic indexing, handling 500+ product inventory with ACID compliance and reducing database load by 40%.
+
+==================================================
+FILE: PRIYANSH_RESUME_1.docx
+==================================================
+Priyansh Gupta
+AI/ML Engineer | Data Scientist
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML), GPA: 8.02022 - 2026
+Trisha PU CollegeBangalore, Karnataka
+Senior Secondary Education (80%)2020 - 2022
+Ryan International SchoolBangalore, Karnataka
+High School (94%)2014 - 2020
+Technical Skills
+Programming: Python, JavaScript, C++, SQL
+AI/ML Frameworks: PyTorch, TensorFlow, Scikit-learn, LangChain, Optuna, Snorkel
+Deep Learning: Transformers, LSTMs, GNNs, CNNs, Vision Transformers
+Data Science: Statistical Modeling, Feature Engineering, Data Visualization (Matplotlib, Seaborn)
+MLOps & Cloud: Model Deployment, Docker, GCP
+Web Development: React.js, Node.js, Express.js, REST APIs, MySQL, NoSQL
+Publications & Research
+Exploring Vision-Based Models Using Kolmogorov-Arnold NetworksICOACT 2025
+Led research integrating KANs into vision models, achieving 80.4% accuracy (4.3% improvement over VGG-16 baseline)
+Mitigating Catastrophic Forgetting in Temporal Graph Neural NetworksKAIS Journal [Under Review]
+Developed AMC framework achieving 91.2% accuracy on Reddit dataset (19.5pp improvement over baseline)
+A Pipeline of Weak Supervisions for Misinformation DetectionICTIS 2025
+Built NLP pipeline using LLaMA 2 + Snorkel, outperforming fine-tuned RoBERTa by 25pp in cross-domain F1-macro
+Achievement: 4th Place, NeuroNex Datathon 1.0 (2023)
+Teaching AssistantTeaching AssistantProfessional Experience
+Teaching Assistant
+Teaching Assistant
+PES University, Bajaj BEST Program | Bangalore, India2024
+Shipped full-stack lab management portal (React.js + Node.js) serving 200+ students, reducing query resolution time by 30%
+Designed AI lab exercises improving completion rates by 45%, collaborating with faculty on requirements
+Maintained 99% uptime through proactive debugging and monitoring
+Created ML learning modules demonstrating ability to communicate complex concepts to non-technical audiences
+Metaheuristic Optimization of SOTA Inpainting Model | ResearchMetaheuristic Optimization of SOTA Inpainting Model | ResearchProjects
+Metaheuristic Optimization of SOTA Inpainting Model | Research
+Metaheuristic Optimization of SOTA Inpainting Model | Research
+Tech Stack: PyTorch, Optuna, Nevergrad, Neural Architecture Search
+Extended CVPRW 2023 transformer architecture (Wavelet Query Attention + Omni-dimensional Gated Attention)
+Built multi-stage NAS pipeline using GA, PSO, and Bayesian Optimization for automated hyperparameter tuning
+Reduced training requirements by 99.9% (millions → 5K epochs) while maintaining high PSNR/SSIM metrics
+Agriculture Chatbot | Production AI System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini, REST APIs
+Deployed GenAI chatbot for farmers with 95% query accuracy, reducing response time by 60%
+Implemented secure REST API with authentication, rate limiting, and concurrent user support
+Applied measurement framework tracking accuracy, latency, and satisfaction metrics
+AutoCommerce Manager | Full-Stack Automotive E-Commerce Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL
+Built role-based platform with separate dashboards for users, admin, and delivery staff managing automobile inventory
+Implemented real-time stock validation system checking availability and order fulfillment requirements
+Developed admin inventory management module tracking 500+ automobile units, parts stock, and warehouse locations
+Designed order workflow system routing pickup/drop locations from admin to delivery staff after order confirmation
+
+==================================================
+FILE: PRIYANSH_RESUME_2.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +91 91481 77956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML) — CGPA 7.992022 - 2026
+Technical Skills
+Programming & Core CS: Python, JavaScript, C++, SQL
+Data Structures & Algorithms, Concurrency, Object-Oriented Design, System Design
+Backend & APIs: Node.js, Express.js, REST API design, Input validation
+Databases: PostgreSQL, MySQL, NoSQL, ACID transactions, Indexing,
+DevOps & Infra: Docker, GCP, AWS (basic), CI/CD pipelines
+Tools & Other: Git, GitHub
+Teaching Assistant — Backend & ReliabilityTeaching Assistant — Backend & ReliabilityProfessional Experience
+Teaching Assistant — Backend & Reliability
+Teaching Assistant — Backend & Reliability
+PES University, Bajaj BEST Program | Bangalore2024
+Built and maintained a full-stack lab management system (React.js + Node.js) used by 200+ students; improved reliability and reduced query resolution time by 30% through robust API design and defensive error handling.
+Designed interactive laboratory modules with a focus on correctness and testability, increasing completion rates by 45%.
+Database Performance Analyzer — System Optimization ToolDatabase Performance Analyzer — System Optimization ToolProjects
+Database Performance Analyzer — System Optimization Tool
+Database Performance Analyzer — System Optimization Tool
+Tech Stack: Python, SQL, Custom Profiling Utilities, Benchmarking Framework
+Built a profiling tool to identify bottlenecks in SQL queries, memory usage, and I/O; provided engineers with actionable visibility into database behavior.
+Engineered automated index recommendations and query restructuring logic, reducing average response time by 30%.
+Designed a deterministic benchmarking framework to produce reproducible metrics and emphasize testability and cor- rectness.
+DFD Generator — Automated System Diagram & Documentation Tool
+Tech Stack: Python, Graphviz, Parser Design, CLI Tooling
+Implemented a tool that converts structured specifications into validated Data Flow Diagrams, eliminating manual diagram creation and human inconsistencies in system documentation.
+Built a rule-based validation engine to enforce correct relationships between processes, data stores, and external enti- ties—preventing invalid system configurations and improving design correctness.
+Produced deterministic Graphviz outputs for engineering reviews, audits, and onboarding, demonstrating automation of developer workflows and maintainable tooling.
+AutoCommerce Manager — Full-Stack Transaction System
+Tech Stack: Node.js, Express.js, MySQL, Docker, REST APIs
+Developed a production-grade backend with secure authentication flows, ACID-compliant transactions, and concurrency- safe order processing for 100+ product inventory.
+Designed normalized relational schemas and indexing strategies, reducing database load by 40% and enabling reliable real-time stock validation.
+Implemented role-based access controls and clear API error contracts to ensure predictable behavior under concurrent use.
+Agriculture AI Assistant — Secure API Product
+Tech Stack: Python, LangChain, JSON Datastore, REST APIs, GCP
+Built a fault-tolerant backend serving farmers with 95% query accuracy; emphasized reliability and observability.
+Implemented rate-limiting, and proper data pre-processing and reduce latency by 60%.
+Added instrumentation for accuracy, latency, and usage metrics to enable data-driven iteration and product decisions.
+Publications & Research
+Selected Publications (condensed):
+A Pipeline of Weak Supervisions for Misinformation Detection. ICTIS, 2025.
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks. Accepted in KAIS Journal (under review).
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks. ICOACT, 2025.
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023).
+Strengths
+Designs systems with emphasis on correctness, maintainability, and testability; prefers evidence-driven decisions and reproducible engineering artifacts.
+Strong written communicator: produces clear documentation, reproducible experiment logs, and onboarding materials.
+Comfortable owning modules end-to-end in early-stage environments: design → build → test → deploy → monitor.
+
+==================================================
+FILE: PRIYANSH_RESUME_FRONTEND.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML) CGPA-7.992022 - 2026
+Trisha PU CollegeBangalore, Karnataka
+Senior Secondary Education (80 %)2020 - 2022
+Ryan International SchoolBangalore, Karnataka
+High School (94%)2018 - 2020
+Technical Skills
+Frontend: React.js, JavaScript (ES6+), HTML5, CSS3, Component-Based Development, Responsive UI, Tailwind CSS, Basic State Management (Context API)
+Backend: Node.js, Express.js, RESTful APIs, Authentication, API Integration
+Databases: MySQL, SQL Query Writing, Basic Query Optimization, NoSQL (MongoDB)
+AI / ML: Python, TensorFlow, PyTorch, LangChain, Scikit-learn, Gemini API, Data Processing
+Tools & DevOps: Git, GitHub, Docker (Basics), GCP (Basics), Vite/Webpack (Basics), Chrome DevTools
+Other: Problem Solving, Debugging, Version Control, Clean Code Practices
+Professional Experience
+Teaching AssistantTeaching Assistant
+Teaching Assistant
+Teaching Assistant
+PES University, Bajaj BEST Program | Bangalore | 2024
+Built and deployed a full-stack labs management portal using React.js and Node.js serving 200+ students, featuring responsive UI, clean component structure, and real-time dashboard updates.
+Developed frontend screens, routing, interactive forms, and dashboards used during weekly AI/ML laboratory sessions.
+Improved portal responsiveness by adding client-side caching, optimized API routes, and lazy component rendering.
+Collaborated with faculty to design front-end driven AI laboratory exercises, increasing lab completion rates by 45%.
+Projects
+Agriculture Chatbot | AI-Powered Query SystemAgriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini API, JSON Database, REST APIs, React, Node.js, GCP
+Created a responsive React UI featuring chat interface, image upload component, and structured response cards.
+Developed modular components for chat history, loading skeletons, debounced inputs, and dynamic response rendering.
+Integrated LangChain + Gemini API through custom REST APIs enabling multi-modal query handling with high accuracy.
+Used caching and optimized routing to reduce backend response times by 60%.
+AutoCommerce Manager | Retail Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL, REST APIs, Docker
+Built a React-based storefront and admin dashboard with reusable UI components (product cards, filters, cart, tables).
+Implemented Context API for cart operations, product state handling, and session persistence.
+Integrated REST APIs with robust error boundaries, pagination, and loading indicators to improve UI experience.
+Optimized MySQL queries using indexing and normalization achieving 40% faster product search and 35% faster order processing.
+AI Article Summarizer | Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API, HTML/CSS
+Built an interactive popup UI using vanilla JavaScript with efficient DOM updates and clean component structure.
+Implemented optimized DOM traversal for extracting article content and generating accurate summaries.
+Delivered AI-based summaries to 100+ users with stable uptime and minimal frontend footprint.
+Publications & Research
+Published Research Papers:
+A Pipeline of Weak Supervisions for Misinformation Detection. ICTIS, 2025.
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks. Accepted in KAIS Journal (Under Review).
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks. ICOCAT, 2025.
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023).
+
+==================================================
+FILE: PRIYANSH_RESUME_IMG.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Professional Summary
+Computer Science Engineering student passionate about building impactful fintech solutions and shipping production- ready features. Strong foundation in full-stack development, database optimization, and AI integration with experience in building scalable payment and e-commerce systems. Proven ability to develop RESTful APIs, optimize system per- formance, and implement AI-powered solutions. Skilled in modern web technologies, problem-solving, and translating user requirements into high-quality code. Experience with debugging live systems and applying product thinking to deliver user-centric solutions.
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML), GPA: 8.02022 - 2026
+Relevant Coursework: Database Management Systems, Data Structures & Algorithms, Software Design Patterns, Oper- ating Systems, Machine Learning, Deep Learning, Web Security
+Trisha PU CollegeBangalore, Karnataka
+Senior Secondary Education (80%)2020 - 2022
+Ryan International SchoolBangalore, Karnataka
+High School (94%)2018 - 2020
+Technical Skills
+Programming Languages: Python, JavaScript, Java, C++, SQL
+Core Competencies: Data Structures & Algorithms, Object-Oriented Programming, REST API Design, Problem Solving, System Design
+Web Development: React.js, Node.js, Express.js, RESTful APIs, HTML/CSS
+Database Systems: MySQL, PostgreSQL, NoSQL
+AI/ML Integration: LangChain, TensorFlow, GPT-3.5/Gemini API, Scikit-learn
+Cloud & DevOps: Google Cloud Platform, AWS(Beginner), Docker, CI/CD Pipelines
+Tools: Git, GitHub, Debugging Tools
+Professional Experience
+Teaching AssistantPES University, Bajaj BEST Program | Bangalore, India
+2024
+Shipped full-stack laboratory management portal using React.js and Node.js serving 200+ students, reducing query resolution time by 30% and improving student experience through intuitive UI/UX design.
+Designed and developed interactive AI laboratory exercises, collaborating with faculty to understand student requirements and improve lab completion rates by 45%.
+Created self-guided learning modules enabling students to build ML models, demonstrating ability to translate complex concepts into user-friendly solutions.
+Debugged and troubleshot live system issues, ensuring 99% uptime for critical academic workflows.
+Projects
+Agriculture Chatbot | AI-Powered Query SystemAgriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini API, JSON Database, REST APIs
+Built and shipped production-ready intelligent chatbot serving real farmers with 95% query accuracy, leveraging AI to solve critical information access problems in agriculture domain.
+Integrated LangChain with structured JSON database for efficient information retrieval, reducing response time by 60% through optimized data parsing and caching strategies.
+Designed RESTful API architecture supporting concurrent users with minimal latency, implementing secure authentication and rate limiting for production deployment.
+Applied product thinking to understand farmer pain points, iterating on features based on user feedback to improve information accessibility.
+AutoCommerce Manager | Full-Stack Retail Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL, REST APIs
+Developed complete e-commerce platform with payment processing capabilities, achieving 35% faster order processing through optimized database queries and efficient API design.
+Implemented secure transaction management with ACID compliance, handling 500+ product inventory with concurrent access control and data integrity validation.
+Built RESTful APIs following industry best practices for authentication, error handling, and input validation to ensure security and reliability.
+Designed normalized database schema with strategic indexing, reducing query response time and database load by 40%.
+Collaborated with UI/UX requirements to deliver responsive front-end with seamless user experience across devices.
+AI Article Summarizer | Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API, HTML/CSS
+Shipped production-ready Chrome extension leveraging AI for content summarization, used by 100+ users for improved reading efficiency.
+Integrated Gemini API with robust error handling and fallback mechanisms, ensuring 99% service reliability.
+Implemented secure API key management and user data privacy controls following Chrome Web Store security guidelines.
+Optimized content parsing with efficient DOM traversal algorithms, increasing summarization relevancy by 40%.
+Database Performance Analyzer | System Optimization Tool
+Tech Stack: Python, SQL, Performance Profiling Tools
+Developed profiling tool to identify database bottlenecks in query execution, memory usage, and I/O operations for performance tuning.
+Achieved 30% reduction in average query response time through automated index optimization and query restructuring recommendations.
+Built automated benchmarking framework with detailed metrics dashboard for real-time performance monitoring.
+Publications & Research
+Published Research Papers:
+A Pipeline of Weak Supervisions for Misinformation Detection. ICTIS, 2025.
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks. Accepted in KAIS Journal.
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks. ICOCAT, 2025.
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023) - Competitive problem-solving hackathon.
+
+==================================================
+FILE: PRIYANSH_RESUME_SDE.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML), GPA: 8.02022 - 2026
+Trisha PU CollegeBangalore, Karnataka
+Senior Secondary Education (80%)2020 - 2022
+Ryan International SchoolBangalore, Karnataka
+High School (94%)2018 - 2020
+Technical Skills
+Programming Languages: Python, Java, JavaScript, C++, SQL
+AI/ML & Data Science: TensorFlow, PyTorch, Transformers, LangChain, GPT-3.5/Gemini API, Scikit-learn, Data Analyt- ics
+Cloud & DevOps: GCP, Docker, Kubernetes (Basics), CI/CD Pipelines
+Web Development: React.js, Node.js, Express.js, RESTful APIs, HTML/CSS, MySQL, NoSQL
+Tools: Git, GitHub
+Professional Experience
+Teaching AssistantTeaching Assistant
+Teaching Assistant
+Teaching Assistant
+PES University, Bajaj BEST Program | Bangalore | 2024
+Developed full-stack labs management portal using React.js and Node.js to serve 200+ students and reduce query resolution time by 30%.
+Designed interactive AI laboratory exercises collaborating with faculty to improve lab completion rates by 45%.
+Projects
+Agriculture Chatbot | AI-Powered Query SystemAgriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini API, JSON Database, REST APIs, React, Node.js, GCP
+Built full-stack AI chatbot using LangChain and Gemini API to deliver agriculture domain queries with 95% accuracy integrated with image classifiaction and data analysis features.
+Optimized information retrieval with structured JSON database and caching strategies to reduce response time by 60%.
+AutoCommerce Manager | Cloud-Native Retail Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL, REST APIs, Docker
+Built full-stack e-commerce platform with microservices architecture to achieve 35% faster order processing through optimized database queries.
+Implemented secure RESTful APIs with authentication and ACID-compliant transactions to manage 500+ product inven- tory.
+Designed normalized database schema with strategic indexing to reduce query response time by 40%.
+AI Article Summarizer | Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API, HTML/CSS
+Developed Chrome extension using Gemini API to deliver AI-powered article summarization for 100+ users with 99% uptime.
+Optimized content parsing with efficient DOM traversal algorithms to increase summarization accuracy by 40%.
+Publications & Research
+Published Research Papers:
+A Pipeline of Weak Supervisions for Misinformation Detection. ICTIS, 2025. (AI/ML-driven automated detection system)
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks. Accepted in KAIS Journal. (Under Review) (Self-learning network optimization)
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks. ICOCAT, 2025. (Advanced AI architecture re- search)
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023) - Demonstrated strong data science and analytics capabilities in competitive problem-solving environment.
+
+==================================================
+FILE: PRIYANSH_RESUME_WayFair.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +919148177956
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML), GPA: 8.02022 - 2026
+Relevant Coursework: Database Management Systems, Data Structures & Algorithms, Software Design Patterns, Oper- ating Systems, Machine Learning, Deep Learning, Web Security
+Trisha PU CollegeBangalore, Karnataka
+Senior Secondary Education (80%)2020 - 2022
+Ryan International SchoolBangalore, Karnataka
+High School (94%)2018 - 2020
+Technical Skills
+Programming Languages: Python, JavaScript, Java, C++, SQL
+Core Competencies: Data Structures & Algorithms, Object-Oriented Programming, REST API Design, Problem Solving, System Design
+Web Development: React.js, Node.js, Express.js,MySQL, PostgreSQL, RESTful APIs, HTML/CSS
+AI/ML: TensorFlow, Transformers, Attention Mechanisms, Temporal Graph Neural Networks (TGNNs), LangChain, GPT-
+3.5/Gemini API, Scikit-learn, PyTorch
+Cloud & DevOps: Google Cloud Platform, AWS (Beginner), Docker, CI/CD Pipelines
+Tools: Git, GitHub, Debugging Tools
+Professional Experience
+Teaching AssistantPES University, Bajaj BEST Program | Bangalore
+2024
+Shipped full-stack labs/exercises management portal using React.js and Node.js serving 200+ students, reducing query resolution time by 30% and improving student experience through intuitive UI/UX design.
+Designed and developed interactive AI laboratory exercises, collaborating with faculty to understand student requirements and improve lab completion rates by 45%.
+Created self-guided learning modules enabling students to build ML models, demonstrating ability to translate complex concepts into user-friendly solutions.
+Debugged and troubleshot live system issues, ensuring 99% uptime for critical academic workflows.
+Projects
+Agriculture Chatbot | AI-Powered Query SystemAgriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Agriculture Chatbot | AI-Powered Query System
+Tech Stack: Python, LangChain, GPT-3.5/Gemini API, JSON Database, REST APIs, React, Node js
+Built and shipped production-ready intelligent chatbot serving real farmers with 95% query accuracy, leveraging AI to solve critical information access problems in agriculture domain.
+Integrated LangChain with structured JSON database for efficient information retrieval, reducing response time by 60% through optimized data parsing and caching strategies.
+Designed RESTful API architecture supporting concurrent users with minimal latency, implementing secure authentication and rate limiting for production deployment.
+Applied product thinking to understand farmer pain points, iterating on features based on user feedback to improve information accessibility.
+AutoCommerce Manager | Full-Stack Retail Platform
+Tech Stack: React.js, Node.js, Express.js, MySQL, REST APIs
+Developed complete e-commerce platform with payment processing capabilities, achieving 35% faster order processing through optimized database queries and efficient API design.
+Implemented secure transaction management with ACID compliance, handling 500+ product inventory with access control and data integrity validation.
+Built RESTful APIs following industry best practices for authentication, error handling, and input validation to ensure security and reliability.
+Designed normalized database schema with strategic indexing, reducing query response time and database load by 40%.
+Collaborated with UI/UX requirements to deliver responsive front-end with seamless user experience across devices.
+AI Article Summarizer | Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API, HTML/CSS
+Shipped production-ready Chrome extension leveraging AI for content summarization, used by 100+ users for improved reading efficiency.
+Integrated Gemini API with robust error handling and fallback mechanisms, ensuring 99% service reliability.
+Implemented secure API key management and user data privacy controls following Chrome Web Store security guidelines.
+Optimized content parsing with efficient DOM traversal algorithms, increasing summarization relevancy by 40%.
+Publications & Research
+Published Research Papers:
+A Pipeline of Weak Supervisions for Misinformation Detection. ICTIS, 2025.
+Mitigating Catastrophic Forgetting in Temporal Graph Neural Networks. Accepted in KAIS Journal. (Under Review)
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks. ICOCAT, 2025.
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023) - Competitive problem-solving hackathon.
+
+==================================================
+FILE: PRIYANSH_SDE.docx
+==================================================
+Education
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +91 91481 77956
+PES UniversityBangalore, India
+B.Tech in Computer Science Engineering (AIML) | CGPA: 8.0/102022 - 2026
+Technical Skills
+Core Engineering: Data Structures & Algorithms, System Design, REST APIs, ACID Transactions, Microservices
+Cloud & DevOps: Docker, Google Cloud Platform (GCP), CI/CD Pipelines, Kubernetes (Basics)
+AI/ML Engineering: LangChain, RAG Pipelines, TensorFlow, PyTorch, Gemini API, MLOps (Optimization)
+Web Technologies: React.js, Node.js, Express.js, Redis, MySQL, PostgreSQL
+Languages: Python, JavaScript, C++, Java, SQL
+Professional Experience
+AI/ML Security Engineering InternSecuracy.ai | Bangalore
+System Architecture & OptimizationCurrent
+Architected a custom Data Flow Diagram (DFD) engine to replace external dependencies, migrating graph processing logic to the local
+backend to significantly reduce page load latency.
+Engineered a dynamic multi-select interface with real-time state management for architectural inputs, streamlining the user onboarding process for enterprise clients.
+Implemented rigorous form validation logic to capture granular security details (encryption protocols, hosting environments), ensuring data integrity for downstream threat modeling.
+Teaching Assistant & DeveloperPES University, Bajaj BEST Program
+Full-Stack Operations & ReliabilityJan 2024 - Present
+Designed, developed, and operated a full-stack lab management portal (React.js/Node.js) serving 200+ students, maintaining 99% uptime
+through proactive error monitoring.
+Reduced query resolution time by 30% by implementing a real-time dashboard and optimizing API response times.
+Software Engineering Projects
+AutoCommerce Manager | Cloud-Native Retail Platform
+Node.js, Express.js, MySQL, Docker, REST APIs, ACID Transactions
+Containerization & Backend Design: Engineered a high-throughput backend, containerized using Docker for consistent deployment across environments.
+Database Optimization: Designed a normalized MySQL schema with strategic indexing, reducing database load by 40% and improving query speeds.
+Security: Implemented ACID-compliant transactions and Granular Role-Based Access Control (RBAC) to secure endpoints for Admin and Logistics users.
+AgriChat | Scalable AI-Powered Query System (RAG)
+Python, LangChain, REST APIs, Redis Caching, GCP
+AI Platform Engineering: Built a production-ready Multimodal RAG system processing concurrent image and text inputs.
+Latency Optimization: Optimized inference latency by 60% through structured JSON caching and a custom retrieval pipeline.
+Cloud Integration: Deployed components on Google Cloud Platform (GCP), implementing secure authentication and rate limiting for production stability.
+Metaheuristic Optimization of Inpainting Model
+PyTorch, Optuna, Evolutionary Algorithms
+Architected a metaheuristic pipeline (GA for NAS, PSO for loss tuning) extending a CVPRW 2023 transformer.
+Achieved a 99.9% reduction in training compute (from millions to 5K epochs) while maintaining SOTA metrics.
+Publications & Achievements
+Mitigating Catastrophic Forgetting in Temporal GNNsKAIS Journal (Under Review)
+Proposed “Adaptive Memory Consolidation” (AMC) achieving SOTA 91.2% accuracy (19.5% lift).
+A Pipeline of Weak Supervisions for Misinformation DetectionICTIS 2025
+Built NLP pipeline with LLaMA 2 + Snorkel, outperforming RoBERTa baseline by 25%.
+Exploring Vision-Based Models Using Kolmogorov-Arnold NetworksICOACT 2025
+Pioneered integration of KANs into vision models; Achieved 80.4% accuracy.
+Achievement: 4th Place, NeuroNex Datathon 1.0 (2023) - Ranked top 5 of 100+ participants in data hackathon.
+
+==================================================
+FILE: RESUME1.docx
+==================================================
+Priyansh Gupta
+Bangalore, India • +91 91481 77956 priyanshgupta412@gmail.com • GitHub • LinkedIn
+Summary
+Solutions-focused engineer with hands-on experience building Python-based integrations, REST API systems, technical demos, and customer-facing tools. Strong at breaking down ambiguous requirements, architecting clean integration patterns, and communicating technical concepts clearly to non-technical users. Comfortable collaborating with sales, product, and engineering stakeholders to design scalable solutions and standardize repeated workflows. Excited by fast-paced environments where execution, clarity, and problem-solving matter more than job titles.
+Core Competencies
+API Integration • Python Scripting • Technical Enablement • Demo Development • Customer Discovery • Solution Architecture • Integration Pattern Design • Documentation & Tooling • Cross-Functional Collaboration • Rapid Proto- typing • Troubleshooting & Debugging • Communication for Technical & Non-Technical Audiences
+Technical Skills
+Languages: Python, JavaScript, C++, SQL
+Integrations & Backend: REST APIs, Node.js, Express.js, JSON Schemas, MySQL, PostgreSQL
+AI/ML (integration-focused): LLM APIs (LangChain, OpenAI/Gemini), RAG pipelines, model inference tooling
+Cloud & DevOps: GCP, AWS (basic), Docker, CI/CD
+Tooling: Graphviz, D3.js, Optuna, Pandas, NumPy, Git
+Architecture Areas: API design, data flow diagrams, system reliability, performance tuning
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science (AIML), CGPA: 8.0/102022 – 2026
+Professional Experience
+Teaching Assistant – Engineering, Integrations & User SupportPES University, Bajaj BEST ProgramTeaching Assistant – Engineering, Integrations & User SupportPES University, Bajaj BEST ProgramCustomer-facing, integration-heavy engineering role.2024
+Teaching Assistant – Engineering, Integrations & User Support
+PES University, Bajaj BEST Program
+Teaching Assistant – Engineering, Integrations & User Support
+PES University, Bajaj BEST Program
+Worked directly with 200+ student and faculty users to understand workflows, identify bottlenecks, and translate needs into technical requirements.
+Designed and shipped a full-stack lab management platform (React + Node.js) with clean API contracts, 30% faster workflow execution, and 99% uptime.
+Created technical enablement modules that simplified ML concepts for non-technical audiences, mirroring customer onboarding & documentation.
+Built reproducible demos, debugging tools, and internal automations to reduce repetitive support issues.
+Took full ownership of scoping → architecture → implementation → testing → rollout, ensuring smooth adoption across diverse users.
+Selected Projects (Solutions Engineer Positioning)
+AI Assistant – Conversational System Prototype
+Python, LangChain, REST APIs, GCP
+Built a RAG-driven assistant with clear integration boundaries and modular components for easy extension.
+Designed API endpoints, request handlers, validation layers, and instrumentation to track latency/accuracy — similar to how customers integrate ElevenLabs APIs.
+Added authentication + rate limiting to make the system deployment-ready (even though not publicly deployed).
+Wrote documentation for how to run, extend, and customize the assistant — similar to customer enablement guides.
+DFD Generator – Technical Tool for Integrations & Architecture
+Python, Graphviz, Parser Design, Node.js
+Created an automated tool that converts system specifications into validated data flow diagrams.
+Built a parser + rules engine to enforce correct interactions between services, data stores, and APIs.
+Eliminated confusion around integrations by producing deterministic diagrams — similar to how a Solutions Engineer clarifies customer architecture.
+AutoCommerce Manager – API-Driven Backend System
+Node.js, Express.js, MySQL, Docker
+Architected a production-like backend with ACID transactions, concurrency-safe order handling, and clear API schemas.
+Designed reusable patterns for authentication, error handling, and DB optimization — direct analogs to standardizing ElevenLabs integration patterns.
+Reduced DB load by 40% using indexing strategies and query refactors.
+Metaheuristic Optimization of SOTA Inpainting Model
+Python, PyTorch, NAS, Optuna
+(Not strictly sales-engineering work, but demonstrates technical depth.)
+Reduced training compute by 99.9% through structured experimentation, deep debugging, and iterative architecture tuning.
+Shows ability to learn complex systems fast — critical for onboarding new customers to ElevenLabs APIs.
+Research & Publications
+(Condensed; still signals technical credibility.)
+Kolmogorov-Arnold Networks for Vision
+Priyansh Gupta et al.
+Improved VGG-16 by 4.3%.
+Temporal GNNs for Continual Learning
+V. Palled, Y. Gawhale, P. Gupta, B. Das(Under Review)
+Achieved SOTA 91.2%.
+Weak Supervision Pipeline
+Y. Gawhale, P. Gupta, V. Palled, B. Das
+Outperformed RoBERTa by 25pp F1-macro.
+Additional Strengths
+Clear, structured communicator
+Comfortable supporting customers, sales teams, and product teams
+Quick learner who can pick up new APIs & architectures fast
+Thrives in high-velocity, low-bureaucracy environments
+Strong ownership mindset and problem decomposition ability
+
+==================================================
+FILE: RESUME_FRONTEND.docx
+==================================================
+Priyansh Gupta
+priyanshgupta412@gmail.com | GitHub | LinkedIn | +91 91481 77956
+Technical Skills
+Frontend & UI: React.js, Vue.js, Tailwind CSS, HTML5, CSS3, Redux/Context API, Responsive Design, Component Libraries
+Languages: JavaScript (ES6+), Python, C++, SQL, TypeScript
+Backend & Infra: Node.js, Express.js, RESTful APIs, Docker, Google Cloud Platform (GCP)
+AI Product Engineering: Gemini API, LangChain, RAG Pipelines, Prompt Engineering
+Tools: Git, GitHub, Chrome DevTools, Postman, Vite/Webpack
+Professional Experience
+AI/ML Security Engineering InternBangalore
+Securacy.ai (Threat Modeling Platform)Jan 2026 – Present
+Complex UI State Management: Engineered a dynamic multi-select interface with real-time state management for the Threat Analysis dashboard, streamlining user onboarding for enterprise clients.
+Dashboard Architecture: Architected a custom Data Flow Diagram (DFD) engine, migrating graph processing logic to the backend to reduce page load latency and improve frontend responsiveness.
+Frontend Optimization: Implemented rigorous form validation logic to capture granular security details, ensuring data integrity and a seamless user experience.
+Teaching Assistant (Full Stack Developer)
+PES University, Bajaj BEST ProgramJan 2024 – Present
+Dashboard Development: Built and deployed a full-stack lab management portal using React.js and Node.js serving 200+ students, featuring responsive UI, clean component structure, and real-time updates.
+Performance: Improved portal responsiveness by adding client-side caching, optimizing API routes, and implementing lazy component rendering for faster load times.
+UX Design: Collaborated with faculty to design frontend-driven interactive AI laboratory exercises, directly increasing lab completion rates by 45%.
+Projects
+AutoCommerce: Retail Dashboard & StorefrontAutoCommerce: Retail Dashboard & Storefront
+AutoCommerce: Retail Dashboard & Storefront
+AutoCommerce: Retail Dashboard & Storefront
+Tech Stack: React.js, Tailwind CSS, Context API, Node.js, MySQL
+Component-Based Design: Built a React-based admin dashboard with reusable UI components (product cards, filters, data tables), ensuring design consistency across the platform.
+State Management: Implemented Context API for managing complex global states like cart operations, product filters, and session persistence.
+UX Polish: Integrated robust error boundaries, pagination, and loading indicators to ensure a seamless and “savvy” user experience similar to modern fintech dashboards.
+AgriChat: AI-Powered Query Interface
+Tech Stack: React.js, Python, LangChain, Gemini API
+Responsive UI: Created a responsive React chat interface featuring image upload components, chat history, and structured response cards.
+User Experience: Developed modular components for loading skeletons, debounced inputs, and dynamic response rendering to handle AI latency gracefully.
+AI Integration: Integrated Gemini API through custom REST APIs, enabling multi-modal query handling with high accuracy.
+VidScribbe: AI Copilot Chrome Extension
+Tech Stack: JavaScript, Chrome Extension API, Gemini API
+Multi-Page Summarization: Built a Chrome extension that extracts and summarizes long-form content across multiple webpages, generating structured, multi-level reports using the Gemini API.
+Export Functionality: Engineered a feature to compile summaries into a unified, noted format downloadable as PDF or Docx, incorporating graceful error handling for incomplete sources.
+Publications & Achievements
+ICML 2026 (Submitted): WaveMamba - Optimized Image Inpainting Architectures.
+ICOACT 2025: Vision-Based Models Using Kolmogorov-Arnold Networks.
+ICTIS 2025: Pipeline of Weak Supervisions for Misinformation Detection.
+Achievement: 4th Place out of 26 teams at NeuroNex Datathon 1.0 (2023).
+Education
+PES UniversityBangalore, India
+Bachelor of Technology in Computer Science Engineering (AIML) | CGPA: 8.0/102022 – 2026
+
+==================================================
+FILE: RESUME_ML_RESEARCH.docx
+==================================================
+Priyansh Gupta
+ priyanshgupta412@gmail.com |  Priyansh295 |  priyansh-gupta |  +91 9148177956
+Education
+PES UniversityBangalore, India
+B.Tech in CS (AI/ML Specialization) | CGPA: 8.0/102022 - 2026
+technical Skills
+ML/Deep Learning: PyTorch, TensorFlow, Transformers, Mamba, Diffusion, NAS, Meta-Heuristics (GA, PSO)
+Generative AI NLP: LLMs (LLaMA 2), RAG (LangChain), Gemini API, Prompt Engineering, Weak Supervision
+Development: Python, C++, JavaScript, React.js, Vue.js, Node.js, SQL, Docker, GCP, REST APIs, Git
+Publications & Research
+WaveMamba: Wavelet-Guided Selective SSMs for Blind Image Inpainting
+P. Gupta et al.ICML 2026 (Submitted)
+Proposed Wavelet-Guided SSM (WG-SSM) achieving O(N) complexity for inpainting by integrating DWT into Mamba.
+Architected ODConv with wavelet queries preserving high-frequency details; superior to O(N²) transformers.
+Engineered meta-heuristic pipeline (GA, PSO, DE) automating NAS, reducing manual tuning.
+Exploring Vision-Based Models Using Kolmogorov-Arnold Networks
+P. Gupta et al.ICOACT 2025
+Replaced MLPs with KANs in vision models, achieving 80.4% accuracy (+4.3%) over VGG-16 on Intel Image Data.
+Mitigating Catastrophic Forgetting in Temporal GNNs
+V. Palled, Y. Gawhale, P. Gupta, B. DasKAIS (Under Review)
+Co-authored Adaptive Memory Consolidation achieving SOTA 91.2% accuracy on Reddit Hyperlink Network.
+A Pipeline of Weak Supervisions for Misinformation Detection
+Y. Gawhale, P. Gupta, V. Palled, B. DasICTIS 2025
+Developed NLP pipeline (LLaMA 2 + Snorkel) achieving +25pp F1-macro over RoBERTa in cross-domain settings.
+Professional Experience
+AI/ML Engineering InternJan 2026 - Present
+Securacy.ai (Threat Modeling Platform)Bangalore
+Architected DFD engine with trust zone modeling edge semantics, migrating graph processing to Python backend.
+Engineered Vue.js frontend with real-time state management, Threat Analysis.
+Implemented scalable FAST APIs routing client requests to DFD service, supporting concurrent assessments.
+Reduced system prompt token usage and cost by 80% by implementing TOON formatting to the prompts
+Teaching Assistant & DeveloperJan 2024 - Present
+PES University, Bajaj BEST ProgramBangalore | 
+Built full-stack AI lab portal (React/Node) serving 200+ students with 99% uptime, reducing queries by 30%.
+Designed interactive ML modules translating complex AI concepts, increasing lab completion rates by 45%.
+Projects
+AgriChat: Production RAG System
+Python, LangChain, GPT-3.5, GCP
+Engineered multimodal RAG system achieving 95% accuracy for plant disease diagnosis; optimized latency by 60%.
+Deployed on GCP with secure authentication and monitoring, achieving 99% service reliability.
+AutoCommerce: E-Commerce Platform
+React, Node, MySQL, Docker
+Developed platform with admin dashboard (Chart.js); optimized DB schema achieving 35% faster processing.
+Built RESTful APIs with ACID transactions and containerized application with Docker for consistent deployment.
+AI Article Summarizer
+JS, Chrome API, Gemini API
+Built a Chrome extension that automatically extracts and summarizes long-form content across multiple webpages, generating structured, multi-level reports using the Gemini API with graceful fallback and error handling for incomplete or noisy sources.
+Achievements
+4th Place, NeuroNex Datathon 1.0 (2023): Ranked top 15% among 26 teams in data science hackathon.
+Research: 4 peer-reviewed papers (3 published, 1 submitted to ICML 2026) demonstrating research depth.
